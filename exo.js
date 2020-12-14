@@ -12,7 +12,7 @@ if(pomme.endsWith("!")) {
     console.log(pomme + " Se termine par un point d'exclamation");
 }
 
-document.getElementById("pomme").innerHTML = pomme.substring(18, 22);
+document.getElementById("pomme").innerHTML = pomme.substring(18, 23);
 
 let array = [pomme.length];
 console.log(array);
